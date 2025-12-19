@@ -5,6 +5,9 @@ class Calculator:
     def multiply(self, x, y):
         return x * y
 
+    def subtract(self, x, y):
+        return x - y
+
 if __name__ == "__main__":
     calc = Calculator()
     print("Welcome to Calculator!")
@@ -12,3 +15,5 @@ if __name__ == "__main__":
     print("Example: 5 + 3 =", calc.add(5, 3))
     print("Current feature: Multiplication")
     print("Example: 5 * 3 =", calc.multiply(5, 3))
+    print("Current feature: Subtraction")
+    print("Example: 5 - 3 =", calc.subtract(5, 3))
